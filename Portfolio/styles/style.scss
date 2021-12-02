@@ -1,0 +1,176 @@
+@import "_colors";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
+    
+}
+html{
+    background-color: $color-black;
+   
+}
+
+.home-content{
+    
+    span{
+        color: $color-white;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        
+    }
+    .profile{
+      
+        .img-div{
+            width: 200px;
+            border-radius: 50%;
+            
+            img{
+                display: block;
+                width: 120px;
+                height: 120px;
+                object-fit: cover;
+                border:1px solid $color-black;
+                border-radius: 50%;
+               
+                
+            }
+        }
+        .name{
+            font-size: 1.25rem;
+            color:$color-white;
+            font-weight: 500;
+            
+        }
+        .role{
+            font-size: 1rem;
+            line-height: 2;
+            color:$color-white;
+            font-weight: 400;
+        }   
+   }
+   .home-cards{        
+    display: flex;
+    gap:10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+        .card-box{
+            display: flex;
+            align-items: center;
+            background: #FFFFFF;
+            padding: 0;
+            letter-spacing: 1;
+            box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+            width: 260px;
+            border-radius: 10px;
+            div{
+                letter-spacing: 1px;
+                padding-left: 20px;
+                h1{
+                    font-size: 1.2rem;
+                }
+                p{
+                    font-size: 0.8rem;
+                }
+            }
+            img{
+                width: 120px;
+                height: 120px;
+                vertical-align:middle;
+                border-bottom-right-radius:10px;
+                border-top-right-radius: 10px;
+            }
+        }
+    }
+
+}
+@media (max-width:768px){
+    .home-content{
+        .home-cards{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+/*#home-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    .home-content{   
+        border: 1px solid #f1f1f1;
+        display: flex;
+        flex-direction: column;
+        .profile{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .img-div{
+            width: 200px;
+            border-radius: 50%;
+            img{
+                display: block;
+    width: 120px; height: 120px;
+    object-fit: cover;
+    border:1px solid $color-black;
+    border-radius: 50%;
+    margin: 0 auto;
+                
+            }
+        }   
+        .name{
+            font-size: 1.5rem;
+            color:$color-white;
+            font-weight: 500;
+        }
+        .role{
+            font-size: 1.25rem;
+            line-height: 2;
+            color:$color-white;
+            font-weight: 400;
+        }
+      .home-cards{        
+            display: flex;
+            gap:10px;
+            
+            .card-box{
+                display: flex;
+                align-items: center;
+                background: #FFFFFF;
+                padding: 0;
+                letter-spacing: 1;
+                box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+                width: 260px;
+                border-radius: 10px;
+                
+                div{
+                    letter-spacing: 1px;
+                    padding-left: 20px;
+                    h1{
+                        font-size: 1.2rem;
+                    }
+                    p{
+                        font-size: 0.8rem;
+                    }
+                }
+                img{
+                    width: 120px;
+                    height: 120px;
+                    vertical-align:middle;
+                    border-bottom-right-radius:10px;
+                    border-top-right-radius: 10px;
+                }
+            }
+      }
+  }  
+}
+@media (max-width:768px){
+    .home-cards{
+        display: flex;
+        flex-direction: column;
+    }
+}*/
+
+

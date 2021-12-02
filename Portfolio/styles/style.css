@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  background-color: #212121;
+}
+
+.home-content span {
+  color: #ffffff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.home-content .profile .img-div {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.home-content .profile .img-div img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid #212121;
+  border-radius: 50%;
+}
+
+.home-content .profile .name {
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.home-content .profile .role {
+  font-size: 1rem;
+  line-height: 2;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.home-content .home-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.home-content .home-cards .card-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  padding: 0;
+  letter-spacing: 1;
+  -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+  width: 260px;
+  border-radius: 10px;
+}
+
+.home-content .home-cards .card-box div {
+  letter-spacing: 1px;
+  padding-left: 20px;
+}
+
+.home-content .home-cards .card-box div h1 {
+  font-size: 1.2rem;
+}
+
+.home-content .home-cards .card-box div p {
+  font-size: 0.8rem;
+}
+
+.home-content .home-cards .card-box img {
+  width: 120px;
+  height: 120px;
+  vertical-align: middle;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .home-content .home-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/*#home-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    .home-content{   
+        border: 1px solid #f1f1f1;
+        display: flex;
+        flex-direction: column;
+        .profile{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .img-div{
+            width: 200px;
+            border-radius: 50%;
+            img{
+                display: block;
+    width: 120px; height: 120px;
+    object-fit: cover;
+    border:1px solid $color-black;
+    border-radius: 50%;
+    margin: 0 auto;
+                
+            }
+        }   
+        .name{
+            font-size: 1.5rem;
+            color:$color-white;
+            font-weight: 500;
+        }
+        .role{
+            font-size: 1.25rem;
+            line-height: 2;
+            color:$color-white;
+            font-weight: 400;
+        }
+      .home-cards{        
+            display: flex;
+            gap:10px;
+            
+            .card-box{
+                display: flex;
+                align-items: center;
+                background: #FFFFFF;
+                padding: 0;
+                letter-spacing: 1;
+                box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+                width: 260px;
+                border-radius: 10px;
+                
+                div{
+                    letter-spacing: 1px;
+                    padding-left: 20px;
+                    h1{
+                        font-size: 1.2rem;
+                    }
+                    p{
+                        font-size: 0.8rem;
+                    }
+                }
+                img{
+                    width: 120px;
+                    height: 120px;
+                    vertical-align:middle;
+                    border-bottom-right-radius:10px;
+                    border-top-right-radius: 10px;
+                }
+            }
+      }
+  }  
+}
+@media (max-width:768px){
+    .home-cards{
+        display: flex;
+        flex-direction: column;
+    }
+}*/
+/*# sourceMappingURL=style.css.map */
